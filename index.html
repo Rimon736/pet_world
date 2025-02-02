@@ -24,7 +24,7 @@
 
 </head>
 <body>
-    <header class="sora bg-[#FFF9F4] ">
+    <header class="sora bg-[#FFF9F4] overflow-hidden">
         <div class="navbar container mx-auto lg:px-20 md:px-1">
             <div>
                 <img class="md:flex-1 px-1" src="./c1-assets/logo-header.png" alt="paw">
@@ -74,13 +74,13 @@
               </div>
           </div>
     </header>
-    <main class="container mx-auto lg:px-20 md:px-1">
-      <div class="hero bg-white min-h-screen relative">
+    <main class="">
+      <div class="hero bg-white min-h-screen relative container mx-auto lg:px-20 md:px-1">
         <div class="hero-content flex-col lg:flex-col-reverse">
           <div class="relative ">
             <img src="./c1-assets/cat-big.png"/>
           </div>
-          <div class="lg:absolute lg:left-20 lg:top-20 z-1 lg:max-w-[50%] lg:-ml-16">
+          <div class="lg:absolute lg:left-20 lg:top-20 z-1 lg:max-w-[50%]">
             <h1 class="text-5xl adlam-display font-[56]">Pamper Your Pet, Because They Deserve the Best</h1>
             <p class="py-6 font-[20]">
               Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!
@@ -89,8 +89,9 @@
           </div>
         </div>
       </div>
-      <h1 class="text-5xl adlam-display font-[56]">Dog Categories</h1>
-      <div class="grid grid-cols-2 lg:grid-cols-6 mt-10 gap-[14px] ">
+      <!-- card section -->
+      <h3 class="text-5xl adlam-display font-[56] container mx-auto lg:px-20 md:px-1">Dog Categories</h3>
+      <div class="grid grid-cols-2 lg:grid-cols-6 mt-10 gap-[14px] container mx-auto lg:px-20 md:px-1">
         <div class="bg-[#F9DF8A] justify-items-center items-center py-5 rounded-[12px]">
           <img class="bg-[#FFFFFF] rounded-[50%] p-4" src="./c1-assets/dog-cartoon.png" alt="cartoon dog image">
           <p class=" font-bold">Dog</p>
@@ -123,6 +124,142 @@
         </div>
         
       </div>
+      <!-- trending section -->
+      <div class="bg-[#FFF9F4]">
+        <h3 class="text-5xl adlam-display font-[56] my-10 container mx-auto lg:px-20 pt-4 md:px-1">Trending Pet Products</h3>
+        <div class="grid gap-5 lg:grid-cols-5 container mx-auto lg:px-20 md:px-1  object-contain">
+
+          <div class="hero bg-[#F9DF8A]  rounded-[10px] col-span-2 row-span-3 flex flex-row lg:max-h-[402px]">
+            <div class="relative hero-content flex-col-reverse">
+              <div class="-mr-40 -mt-40 ">
+                <img src="./c1-assets/cute-pet-small.png" alt="stupid looking dog">
+              </div>
+              <div class="z-1">
+                <h1 class="text-5xl adlam-display font-[32]">T-Shirt For Dogs</h1>
+                <p class="font-[16]">
+                  Discover a world of treats, toys, and essentials handpicked for 
+                </p>
+                <button class="btn bg-white font-[20] px-[30px] py-[10px] border-0">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-4 bg-white p-1 rounded-lg shadow-md border border-gray-200 lg:max-h-[120px] md:max-h-[340px]">
+            <img class="bg-[#FFF9F4] p-2 rounded" src="./c1-assets/pet-couch.png" alt="Pet Bed" >
+        
+            <div>
+                <div class="flex items-center text-gray-700 text-sm">
+                    <span class="text-yellow-500 text-lg">⭐</span>
+                    <span class="ml-1">4.5</span>
+                </div>
+                <h2 class="text-lg font-semibold text-gray-900 font-[20px]">Pet Bed</h2>
+                <p class="text-gray-700 font-medium">$39.99</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-4 bg-white p-1 rounded-lg shadow-md border border-gray-200 lg:max-h-[120px]">
+            <img class="bg-[#FFF9F4] p-2 rounded" src="./c1-assets/pet-couch.png" alt="Pet Bed" >
+        
+            <div>
+                <div class="flex items-center text-gray-700 text-sm">
+                    <span class="text-yellow-500 text-lg">⭐</span>
+                    <span class="ml-1">4.5</span>
+                </div>
+                <h2 class="text-lg font-semibold text-gray-900 font-[20px]">Pet Bed</h2>
+                <p class="text-gray-700 font-medium">$39.99</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-4 bg-white p-1 rounded-lg shadow-md border border-gray-200 lg:max-h-[120px]">
+            <img class="bg-[#FFF9F4] p-2 rounded" src="./c1-assets/pet-couch.png" alt="Pet Bed" >
+        
+            <div>
+                <div class="flex items-center text-gray-700 text-sm">
+                    <span class="text-yellow-500 text-lg">⭐</span>
+                    <span class="ml-1">4.5</span>
+                </div>
+                <h2 class="text-lg font-semibold text-gray-900 font-[20px]">Pet Bed</h2>
+                <p class="text-gray-700 font-medium">$39.99</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-4 bg-white p-1 rounded-lg shadow-md border border-gray-200 lg:max-h-[120px]">
+            <img class="bg-[#FFF9F4] p-2 rounded" src="./c1-assets/pet-couch.png" alt="Pet Bed" >
+        
+            <div>
+                <div class="flex items-center text-gray-700 text-sm">
+                    <span class="text-yellow-500 text-lg">⭐</span>
+                    <span class="ml-1">4.5</span>
+                </div>
+                <h2 class="text-lg font-semibold text-gray-900 font-[20px]">Pet Bed</h2>
+                <p class="text-gray-700 font-medium">$39.99</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-4 bg-white p-1 rounded-lg shadow-md border border-gray-200 lg:max-h-[120px]">
+            <img class="bg-[#FFF9F4] p-2 rounded" src="./c1-assets/pet-couch.png" alt="Pet Bed" >
+        
+            <div>
+                <div class="flex items-center text-gray-700 text-sm">
+                    <span class="text-yellow-500 text-lg">⭐</span>
+                    <span class="ml-1">4.5</span>
+                </div>
+                <h2 class="text-lg font-semibold text-gray-900 font-[20px]">Pet Bed</h2>
+                <p class="text-gray-700 font-medium">$39.99</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-4 bg-white p-1 rounded-lg shadow-md border border-gray-200 lg:max-h-[120px]">
+            <img class="bg-[#FFF9F4] p-2 rounded" src="./c1-assets/pet-couch.png" alt="Pet Bed" >
+        
+            <div>
+                <div class="flex items-center text-gray-700 text-sm">
+                    <span class="text-yellow-500 text-lg">⭐</span>
+                    <span class="ml-1">4.5</span>
+                </div>
+                <h2 class="text-lg font-semibold text-gray-900 font-[20px]">Pet Bed</h2>
+                <p class="text-gray-700 font-medium">$39.99</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-4 bg-white p-1 rounded-lg shadow-md border border-gray-200 lg:max-h-[120px]">
+            <img class="bg-[#FFF9F4] p-2 rounded" src="./c1-assets/pet-couch.png" alt="Pet Bed" >
+        
+            <div>
+                <div class="flex items-center text-gray-700 text-sm">
+                    <span class="text-yellow-500 text-lg">⭐</span>
+                    <span class="ml-1">4.5</span>
+                </div>
+                <h2 class="text-lg font-semibold text-gray-900 font-[20px]">Pet Bed</h2>
+                <p class="text-gray-700 font-medium">$39.99</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-4 bg-white p-1 rounded-lg shadow-md border border-gray-200 lg:max-h-[120px]">
+            <img class="bg-[#FFF9F4] p-2 rounded" src="./c1-assets/pet-couch.png" alt="Pet Bed" >
+        
+            <div>
+                <div class="flex items-center text-gray-700 text-sm">
+                    <span class="text-yellow-500 text-lg">⭐</span>
+                    <span class="ml-1">4.5</span>
+                </div>
+                <h2 class="text-lg font-semibold text-gray-900 font-[20px]">Pet Bed</h2>
+                <p class="text-gray-700 font-medium">$39.99</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-4 bg-white p-1 rounded-lg shadow-md border border-gray-200 lg:max-h-[120px] ">
+            <img class="bg-[#FFF9F4] p-2 rounded" src="./c1-assets/pet-couch.png" alt="Pet Bed" >
+        
+            <div>
+                <div class="flex items-center text-gray-700 text-sm">
+                    <span class="text-yellow-500 text-lg">⭐</span>
+                    <span class="ml-1">4.5</span>
+                </div>
+                <h2 class="text-lg font-semibold text-gray-900 font-[20px]">Pet Bed</h2>
+                <p class="text-gray-700 font-medium">$39.99</p>
+            </div>
+          </div>
+        
+
+
+        </div>
+
+      </div>
+
+
     </main>
     <footer>
 
